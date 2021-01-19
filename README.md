@@ -18,7 +18,8 @@ This repo is about training a model that can detect the license plate, using an 
     nc: 1
 
     # class names
-    names: ['license_plate']```
+    names: ['license_plate']
+    ```
     
 - Download the pretrained weights using `bash weights/download_weights.sh` and put them in the directory `data/pretrained/`.
 - Train the model using 
