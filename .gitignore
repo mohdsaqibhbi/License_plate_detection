@@ -1,0 +1,6 @@
+data/train/images/*.jpg
+data/train/labels/*.txt
+data/val/images/*.jpg
+data/val/labels/*.txt
+data/pretrained/yolov3.pt
+data/output/weights/last.pt
