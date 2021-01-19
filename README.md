@@ -25,8 +25,8 @@ This repo is about training a model that can detect the license plate, using an 
 - Detection
   `python detect.py --weights data/output/weights/last.pt --img 608 --conf 0.5 --source data/test/test.jpg --project data/detect --name ''`
   **Before detection**
-  ![before detection](test/img2.jpg)
+  ![](test/img2.jpg)
   **After detection**
-  ![after detection](detect/img2.jpg)
+  ![](detect/img2.jpg)
   **Cropped**
-  ![cropped](detect/roi_img2.jpg)
+  ![](detect/roi_img2.jpg)
