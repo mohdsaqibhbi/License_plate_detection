@@ -11,8 +11,8 @@ This repo is about training a model that can detect the license plate, using an 
 - Create `license_plate.yaml` file.
 
     ```# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
-    train: data/license_plate/train/images/
-    val: data/license_plate/val/images/
+    train: data/train/images/
+    val: data/val/images/
 
     # number of classes
     nc: 1
